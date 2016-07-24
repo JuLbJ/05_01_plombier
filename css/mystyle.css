@@ -46,7 +46,13 @@ body {
 }
 
 /*_______________________________________________________/ navbar  header_____*/
-
+.well{
+	font-size: 35px;
+	text-align: center;
+	font-family: 'Fredoka One', cursive;
+	color: #263B4C;
+	margin-top: 45px;
+}
 /*____________________________________________________________container_______*/
 .container-fluid{
 	padding-top: 12px;
@@ -77,6 +83,7 @@ body {
 }
 /*_______________________________________________________/ first column_______*/
 .name1 {
+	text-decoration-style: solid;
 	color: #63B4C;
 	font-size: 32px;
 }
@@ -90,8 +97,28 @@ body {
 .simplon{
 	color: green;
 }
+table
 
 /*____________________________________________________________container_______*/
+
+/*______________________________________________________table container_______*/
+.contact1{
+	word-spacing: 20px;
+	letter-spacing: 1px;
+	text-decoration-style: solid;
+}
+th{
+	text-align: center;
+}
+.name2{
+	background-color: #fff;
+}
+.name3{
+	background-color: #fff;
+	text-align: left;
+}
+
+/*____________________________________________________/ table container_______*/
 
 /*______________________________________________________________ pager________*/
 
@@ -99,11 +126,12 @@ body {
 /*___________________________________________________________footer___________*/
 footer{
 	bottom:0;
-	width:100%;
+	width: 100%;
 	height:60px;   /* Height of the footer */
 	font-weight: bolder;
 	font-weight: 600;
 	background: lightgrey;
 	text-align: center;
 	padding-top: 20px;
+	min-width:100%;
 }
