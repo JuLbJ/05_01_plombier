@@ -1,4 +1,4 @@
-/*_____________________________ Media queries __________________________________*/
+/*_____________________________ M E D I A queries __________________________________*/
 																								   /*_______Smartphones_______*/
 @media only screen and (max-width: 320px) {
 /*=======Styles go here=======*/
@@ -23,22 +23,22 @@ body{
 
 /*____________________        C l a s s selectors ____________________________*/
 html {
-  background: url(images/water03.jpeg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+	background: url(images/water03.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
 
 body {
-   margin: 0px;
-   min-height: 100%;
-   width: 100%;
+	 margin: 0px;
+	 min-height: 100%;
+	 width: 100%;
 
 	 background-image: url("../images/water03.jpeg");
 	 background-repeat: no-repeat;
-	 background-size: cover;
-  }
+	 background-size: cover;	 
+	}
 /*__________________________________________________navbar  header____________*/
 .inline li {
   display: inline;
@@ -61,6 +61,7 @@ body {
 .inline{
 	padding-right: 100px;
 	font-weight: bolder;
+	font-size: 26px;
 }
 .row{
 	text-align: center;
@@ -84,7 +85,7 @@ body {
 /*_______________________________________________________/ first column_______*/
 .name1 {
 	text-decoration-style: solid;
-	color: #63B4C;
+	color: #3B3B37;
 	font-size: 32px;
 }
 .pager-prev-fluid li{
@@ -102,11 +103,13 @@ table
 /*____________________________________________________________container_______*/
 
 /*______________________________________________________table container_______*/
-.contact1{
+caption{
 	word-spacing: 20px;
 	letter-spacing: 1px;
-	text-decoration-style: solid;
-}
+	font-size: 26px;
+	color: #3B3B37;
+	font-weight: bold;
+	}
 th{
 	text-align: center;
 }
@@ -118,10 +121,20 @@ th{
 	text-align: left;
 }
 
+td {
+  white-space: normal !important;
+  word-wrap: break-word;
+}
+table {
+  table-layout: fixed;
+}
+
 /*____________________________________________________/ table container_______*/
 
 /*______________________________________________________________ pager________*/
-
+.pager{
+	font-size: 26px;
+}
 /*_____________________________________________________________/ pager________*/
 /*___________________________________________________________footer___________*/
 footer{
